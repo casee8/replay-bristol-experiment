@@ -7,7 +7,7 @@ import Menu from './components/pages/Menu';
 import AfterSchoolClub from './components/pages/AfterSchoolClub';
 import KidsParty from './components/pages/KidsParty';
 import Contact from './components/pages/Contact';
-import About from './components/About';
+import About from './components/pages/About';
 import Footer from './components/Footer';
 import './App.css';
 
