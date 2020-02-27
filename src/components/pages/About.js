@@ -14,7 +14,7 @@ class About extends Component {
         {/* <div className='background'></div> */}
         <div className='white-bckgrnd'>
           <div className='container'>
-            <h1 className='secondary-font text-center extra-padding'>
+            <h1 className='secondary-font text-center'>
               What is Replay?
             </h1>
             <div className='grid-content'>

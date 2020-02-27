@@ -38,6 +38,7 @@ const Footer = () => {
           <p>Copyright &copy; 2020</p>
         </div>
         <div className='footer-pp'>
+          {/* eslint-disable-next-line */}
           <a href='#' target='_blank'>
             Privacy Policy
           </a>
