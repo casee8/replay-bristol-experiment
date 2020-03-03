@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TableBooking from '../TableBooking';
 
 class Contact extends Component {
   render() {
@@ -6,6 +7,30 @@ class Contact extends Component {
       <div className='main-div'>
         <div className='container'>
           <h1 className='secondary-font'>Get in touch:</h1>
+          <TableBooking />
+          <div className='card'>
+            <h3 className='text-center'>
+              <i className='far fa-clock'></i> Opening Times
+            </h3>
+            <div className='grid-o-times'>
+              <p>Monday</p>
+              <p className='text-center'>Closed</p>
+              <p className='bg-light'>Tuesday</p>
+              <p className='text-center bg-light'>6:00pm - 10:30pm</p>
+              <p>Wednesday</p>
+              <p className='text-center'>6:00pm - 10:30pm</p>
+              <p className='bg-light'>Thursday</p>
+              <p className='text-center bg-light'>6:00pm - 10:30pm</p>
+              <p>Friday</p>
+              <p className='text-center'>6:00pm - 11:00pm</p>
+              <p className='bg-light'>Saturday</p>
+              <p className='text-center bg-light'>
+                10:00am - 1:00pm & 2:00pm - 11:00pm
+              </p>
+              <p>Sunday</p>
+              <p className='text-center'>10:00am - 1:00pm & 2:00pm - 9:00pm</p>
+            </div>
+          </div>
           <div className='card'>
             <div>
               <h3>Address:</h3>
@@ -44,30 +69,6 @@ class Contact extends Component {
                   <p>Get directions</p>
                 </div>
               </a>
-            </div>
-          </div>
-          <div className='card'></div>
-          <div className='card'>
-            <h3 className='text-center'>
-              <i className='far fa-clock'></i> Opening Times
-            </h3>
-            <div className='grid-o-times'>
-              <p>Monday</p>
-              <p className='text-center'>Closed</p>
-              <p className='bg-light'>Tuesday</p>
-              <p className='text-center bg-light'>6:00pm - 10:30pm</p>
-              <p>Wednesday</p>
-              <p className='text-center'>6:00pm - 10:30pm</p>
-              <p className='bg-light'>Thursday</p>
-              <p className='text-center bg-light'>6:00pm - 10:30pm</p>
-              <p>Friday</p>
-              <p className='text-center'>6:00pm - 11:00pm</p>
-              <p className='bg-light'>Saturday</p>
-              <p className='text-center bg-light'>
-                10:00am - 1:00pm & 2:00pm - 11:00pm
-              </p>
-              <p>Sunday</p>
-              <p className='text-center'>10:00am - 1:00pm & 2:00pm - 9:00pm</p>
             </div>
           </div>
         </div>
